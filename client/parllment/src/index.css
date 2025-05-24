@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  background-color: transparent;
+  color: inherit;
+  display: block;
+  min-height: 100%;
+}

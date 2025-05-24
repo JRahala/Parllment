@@ -1,0 +1,118 @@
+.mp-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  max-height: 100%;
+  overflow: hidden;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.mp-card-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.mp-card-img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.mp-interests {
+  margin: 0.5rem 0;
+}
+
+.interest-capsules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.interest-pill {
+  background-color: #eef2f4;
+  color: #333;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.mp_card{
+  overflow-y: scroll;
+}
+
+.explanation-text {
+  margin: 0.5rem 0;
+}
+
+.placeholder {
+  font-style: italic;
+  color: #666;
+}
+
+.tag-capsules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.tag-pill {
+  background: #eef;
+  color: #003366;
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.mp-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+.mp-card-scrollable {
+  overflow-y: auto;
+  flex-grow: 1;
+  padding-right: 6px;
+}
+
+.snippet{
+  font-family: 'Times New Roman', Times, Georgia, serif;
+  letter-spacing: 0.5px;
+  font-style: italic;
+}
+
+
+.mp-followup-chat {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.followup-user,
+.followup-mp {
+  margin-bottom: 0.5rem;
+}
+
+.followup-user strong,
+.followup-mp strong {
+  color: #444;
+}
